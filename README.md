@@ -17,9 +17,9 @@ Each component are going to have their own attributes defined and can perform va
       4. position - the location where we want to show the tooltip top/bottom/right/left.
    
    2. LazyImage
-      `<lazy-image alt="Picture Caption" src="<path_of_image>">
-         <----Additional Component/Element if any we want to show on image----->
-      </lazy-image>`
+      `<lazy-image alt="Picture Caption" src="<path_of_image>">`
+         `<----Additional Component/Element if any we want to show on image----->`
+      `</lazy-image>`
       **Description**
       * Component name: lazy-image
       * Attributes:
@@ -27,9 +27,9 @@ Each component are going to have their own attributes defined and can perform va
        2. src - path of image, we can add url,local path.
 
    3. Modal
-      `<modal-element modal-title='My Modal' open='true'>
-   		<h2 slot='modaltitleSlot'>My</h2>
-   	</modal-element>`
+      `<modal-element modal-title='My Modal' open='true'>`
+   		`<h2 slot='modaltitleSlot'>My</h2>`
+   	`</modal-element>`
    **Description**
    * Component name: modal-element
    * Attributes: 
