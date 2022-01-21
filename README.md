@@ -23,8 +23,8 @@ Each component are going to have their own attributes defined and can perform va
       **Description**
       * Component name: lazy-image
       * Attributes:
-         1. alt - use to display image alternate text if image is not loading.
-         2. src - path of image, we can add url,local path.
+       1. alt - use to display image alternate text if image is not loading.
+       2. src - path of image, we can add url,local path.
 
    3. Modal
       `<modal-element modal-title='My Modal' open='true'>
